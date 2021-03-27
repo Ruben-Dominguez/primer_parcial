@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Controlador de Mesas</h1>
+    <hr>
+
+    <table>
+        <thead> 
+            <tr>
+                <th class="titulo">Mesa 1</th>
+                <th class="titulo">Mesa 2</th>
+                <th class="titulo">Mesa 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img id="mesa1" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(1);">
+                </td>
+
+                <td>
+                    <img id="mesa2" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(2);">
+                </td>
+
+                <td>
+                    <img id="mesa3" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(3);">
+                </td>
+            </tr>
+
+            <tr>
+                <td id="hora_inicio1" class="texto">Hora de Inicio:</td>
+                <td id="hora_inicio2" class="texto">Hora de Inicio:</td>
+                <td id="hora_inicio3" class="texto">Hora de Inicio:</td>
+            </tr>
+
+            <tr>  
+                <td id="hora_final1" class="texto">Hora de Final:</td>
+                <td id="hora_final2" class="texto">Hora de Final:</td>
+                <td id="hora_final3" class="texto">Hora de Final:</td>
+            </tr>
+
+            <tr>  
+                <td id="total1" class="texto">Total:</td>
+                <td id="total2" class="texto">Total:</td>
+                <td id="total3" class="texto">Total:</td>
+            </tr>
+
+        </tbody>
+        <thead> 
+            <tr>
+                <th class="titulo">Mesa 4</th>
+                <th class="titulo">Mesa 5</th>
+                <th class="titulo">Mesa 6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img id="mesa4" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(4);">
+                </td>
+
+                <td>
+                    <img id="mesa5" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(5);">
+                </td>
+
+                <td>
+                    <img id="mesa6" class="mesa" src="mesa_billar_off.jpg" onclick="cambiarImg(6);">
+                </td>
+            </tr>
+            
+            <tr>
+                <td id="hora_inicio4" class="texto">Hora de Inicio:</td>
+                <td id="hora_inicio5" class="texto">Hora de Inicio:</td>
+                <td id="hora_inicio6" class="texto">Hora de Inicio:</td>
+            </tr>
+
+            <tr>  
+                <td id="hora_final4" class="texto">Hora de Final:</td>
+                <td id="hora_final5" class="texto">Hora de Final:</td>
+                <td id="hora_final6" class="texto">Hora de Final:</td>
+            </tr>
+
+            <tr>  
+                <td id="total4" class="texto">Total:</td>
+                <td id="total5" class="texto">Total:</td>
+                <td id="total6" class="texto">Total:</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+<script src="script.js"></script>
+</html>
